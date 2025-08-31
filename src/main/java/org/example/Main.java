@@ -29,6 +29,9 @@ public class Main {
         Auto a4 = new Auto(4L, "David", "GM", 1L);
         regAutUsu.registrarAuto(a4);
 
+        Auto a5 = new Auto(5L, "Takoma", "MG", 2L);
+        regAutUsu.registrarAuto(a5);
+
         System.out.println(regAutUsu.listarAutosPU(u2.getId()));
 
 
