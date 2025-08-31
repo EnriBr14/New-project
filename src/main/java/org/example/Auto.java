@@ -27,4 +27,10 @@ public class Auto {
 
     public Long getUsuarioId() {return usuarioId;}
     public void setUsuarioId(Long usuarioId) {this.usuarioId = usuarioId;}
+
+    public String toString() {
+        return "Id del auto" + id + "Modelo: " + Modelo + "Color: " + Color + "Usuario: " + usuarioId;
+    }
+
+
 }
